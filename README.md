@@ -1,5 +1,5 @@
 # karabiner-azerty
-Setup for AZERTY keyboards on MacOS + Karabiner elements
+Setup for AZERTY keyboards on MacOS + [Karabiner elements](https://pqrs.org/osx/karabiner/).
 
 ## Complex modifications
 
