@@ -1,0 +1,49 @@
+{
+    "title": "AZERTY fixes",
+    "rules": [
+        {
+            "description": "'ù' as accute accent deadkey ('´') while leaving '%' accessible.",
+            "manipulators": [
+                {
+                    "type": "basic",
+                    "from": {
+                        "key_code": "quote",
+                        "modifiers": {
+                            "optional": [
+                                "right_option"
+                            ]
+                        }
+                    },
+                    "to": [
+                        {
+                            "key_code": "1",
+                            "modifiers": [
+                                "left_shift",
+                                "left_option"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "description": "Keypad comma (',') as period ('.').",
+            "manipulators": [
+                {
+                    "type": "basic",
+                    "from": {
+                        "key_code": "keypad_period"
+                        },
+                    "to": [
+                        {
+                            "key_code": "comma",
+                            "modifiers": [
+                                "left_shift"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
