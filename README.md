@@ -3,10 +3,11 @@ Setup for AZERTY keyboards on MacOS + [Karabiner elements](https://pqrs.org/osx/
 
 ## Complex modifications
 
-Put `azerty_fixes.json` in `~/.config/karabiner/assets/complex_modifications/`'
+Put `azerty_fixes.json` in `~/.config/karabiner/assets/complex_modifications/`
 and enable the desired rules in Karabiner Elements:
-- remapping of ù to the accute accent deadkey (´), next to the grave accent deadkey (`). This allow to type accentes characters like ó as ù  + o, a lot
-easier than the default Alt + Shift + 1 + letter.
+- remapping of ù to the accute accent deadkey (´), next to the grave accent deadkey (\`). 
+This allow to type accentes characters like ó as ù  + o, a lot easier than the default 
+Alt + Shift + 1 + letter.
 - remapping of the keypad comma to period.
 
 ## Simple modifications
